@@ -35,7 +35,7 @@ const HeaderSearch = () => {
       {/* Left */}
       <div className="flex w-full p-6 items-center">
         {/* Image */}
-        <Image src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" className="cursor-pointer" onClick={() => router.push('/')} width={120} height={40} />
+        <Image src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" className="cursor-pointer" onClick={() => router.push('/')} width={120} height={40} alt="" />
 
         {/* Input */}
         <form onSubmit={search} className="flex flex-grow max-w-3xl items-center border border-gray-200 rounded-full py-3 px-6 ml-10 mr-5 shadow-md focus-within:shadow-lg hover:shadow-lg">

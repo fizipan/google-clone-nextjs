@@ -5,7 +5,6 @@ import { useRouter } from 'next/dist/client/router';
 import Head from 'next/head';
 
 const Search = ({ results }) => {
-  console.log(results);
   const { query } = useRouter();
   return (
     <div>

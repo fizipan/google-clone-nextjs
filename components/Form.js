@@ -21,7 +21,7 @@ const Form = () => {
   return (
     <form className="flex flex-col items-center mt-28 lg:mt-20 mx-8 mb-20">
       {/* Image */}
-      <Image src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="300" height="100" />
+      <Image src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="300" height="100" alt="" />
 
       {/* Input */}
       <div className="flex space-x-4 px-5 py-3 items-center rounded-full w-full max-w-md sm:max-w-xl lg:max-w-2xl border border-gray-200 mt-5 focus-within:shadow-lg hover:shadow-lg">
@@ -36,7 +36,7 @@ const Form = () => {
           Google search
         </button>
         <button onClick={search} className="btn">
-          I'm Feeling Lucky
+          I&apos;m Feeling Lucky
         </button>
       </div>
 
