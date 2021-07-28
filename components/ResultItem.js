@@ -2,7 +2,7 @@ const ResultItem = ({ result }) => {
   return (
     <div className="flex flex-col space-y-1 mb-8 w-full max-w-xl">
       <div className="group cursor-pointer">
-        <a href={result.link} className="text-sm text-[#202124]">
+        <a href={result.link} className="text-sm line-clamp-1 text-[#202124]">
           {result.formattedUrl}
         </a>
         <a href={result.link}>

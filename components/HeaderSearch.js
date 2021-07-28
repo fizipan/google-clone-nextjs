@@ -3,7 +3,7 @@ import { CogIcon } from '@heroicons/react/outline';
 import Image from 'next/image';
 import Avatar from './Avatar';
 import { useEffect, useRef } from 'react';
-import { useRouter } from 'next/dist/client/router';
+import { useRouter } from 'next/router';
 import Navbar from './Navbar';
 
 const HeaderSearch = () => {
